@@ -1,0 +1,120 @@
+
+#nav{
+    background: #cccccc;
+    height: 10rem;
+    width: 100%;
+    position:fixed;
+    bottom:0;
+    left: 0;
+}
+#nav-box{
+    display: -webkit-box;
+    width:100%;
+
+}
+#nav-box div{
+    -webkit-box-flex: 1;
+    font-size:4rem;
+    text-align:center;
+}
+.nav-list{
+    display: block;
+}
+#nav-add{
+    background: orange;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    margin-top:-30px;
+    line-height:8rem; ;
+    transition:all 1s ease;
+}
+#nav-add-enter-active{
+    -webkit-transform:rotate(45deg);
+}
+#nav-add-leave-active{
+    -webkit-transform:rotate(0deg);
+}
+
+
+
+/*//弹出框*/
+#popups{
+    font-size:4rem;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+}
+
+.nav-wrapper h3{
+    margin-top:15rem;
+    text-align: left;
+    margin-left:3.33333%;
+}
+#nav-popups-middle{
+    width: 100%;
+    margin-top:5rem;
+    display: -webkit-box;
+}
+#nav-popups-middle .nav-popups-middle-box{
+    -webkit-box-flex: 1;
+    overflow: hidden;
+    text-align: left;
+}
+.nav-popups-middle-box div{
+    width: 80%;
+    margin:0 auto;
+}
+#nav-popups-middle div .nav-middle-sm{
+    font-size:2.5rem;
+    color: #cccccc;
+}
+#nav-popups-bottom{
+    width: 100%;
+    position:absolute;
+    bottom:40rem;
+    display: -webkit-box;
+    transition:all 1s ease;
+}
+
+#nav-popups-bottom .nav-popups-bottom-box{
+    -webkit-box-flex: 1;
+    text-align: center;
+
+}
+.nav-popups-bottom-box div{
+    width: 15rem;
+    height:15rem;
+    display: inline-block;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    background: orange;
+    text-align: center;
+    line-height: 15rem;
+    font-size:6rem;
+}
+#nav-add-close{
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transition:all 3s ease;
+    -webkit-transform: translateX(-50%) translateY(-5rem) rotate(45deg);
+}
+/*动画*/
+.move-enter-active{
+    -webkit-transform:rotate(45deg);
+}
+.move-leave-active{
+    -webkit-transform:rotate(0deg);
+}
+
+
+
+
